@@ -54,18 +54,18 @@ const SimpleCounter = () => {
       ))}
       </div>
       <div className=" boton">
-        <button onClick={handlePlay}>Play</button>
-        <button onClick={handlePause}>Pause</button>
-        <button onClick={handleStop}>Stop</button>
+        <button  className="boton" onClick={handlePlay}>Play</button>
+        <button className="boton" onClick={handlePause}>Pause</button>
+        <button className="boton" onClick={handleStop}>Stop</button>
       </div>
       <div>
-        <input
+        <input className="boton"
           type="number"
           value={inputValue}
           onChange={handleInputChange}
           placeholder="Set countdown"
         />
-        <button onClick={handleSetCountdown}>Set Countdown</button>
+        <button className="boton" onClick={handleSetCountdown}>Set Countdown</button>
       </div>
     </>
   );

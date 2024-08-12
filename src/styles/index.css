@@ -5,11 +5,13 @@
 body{
     font-size: 30px;
   
- 
 }
  .boton{
   font-family: cursive;
-margin-top: 150px;
+margin: 10px;
+color: aqua;
+border-radius: 40%; 
+border-color: aqua;
 
  }
  .digitos{
